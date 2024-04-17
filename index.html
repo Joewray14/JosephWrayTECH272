@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Joseph Wray's Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="This is Joseph Wray's website for TECH 272 Srping 2024">
+    <meta name="description" content="This is Joseph Wray's website for TECH 272 Spring 2024">
    <link rel="stylesheet" href="Project_2/css/normalize.css">
 	
 	
@@ -18,19 +18,39 @@
 	   }
 		
 		/* STRUCTURE */
-		body {background-color:cadetblue;}
+		
 		main {width:100%; max-width: 600px; background-color: antiquewhite; padding:30px 40px; margin:40px auto;}
+		body {background-color:rebeccapurple;}
+	   #wrap {background-color:#ddd; width:100%; max-width:800px; margin:0 auto 0 auto;}
+	   header {background-color:#444; color:white;}
+	   footer {background-color:#444; color:white;}
+	   header, section, footer {padding:20px 60px;}
+	   figure {margin:0;}
+	   
+	   
+		/* FLOATS */
+       .fr300 {width:100%; max-width:300px; float:right; margin-left:20px; margin-bottom:20px;}
+	   
+	   .fr200 {width:100%; max-width:200px; float:right; margin-left:20px; margin-bottom:20px;}
+	   
+	   .fr1200 {width:100%; max-width:200px; float:left; margin-right:20px; margin-bottom:20px;}
+	   
+	   .clearfix::after {
+       content: "";
+       clear: both;
+       display: table;
+       } 
 		
 		/*TYPOGRAPHY */
 		body {font-family: helvetica, arial, sans-serif;}
-		h1 {color:darkred; font-size: 36px; margin-bottom:6px;}
+		h1 {color:blueviolet; font-size: 36px; margin-bottom:6px;}
 		p {margin-top:0px;}
-		l1 {list-style:none;padding:6px;}
+		li {list-style:none;padding:6px;}
 		
 		/* LINKS */
 		
-		a:link, a:visited {color:darkred; text-decoration: none;}
-		a:hover, a:focus, a:active {color:#FF7003}
+		a:link, a:visited {color:saddlebrown; text-decoration: none;}
+		a:hover, a:focus, a:active {color:darkblue; text-decoration: underline;}
 		
 		
 	</style>
@@ -44,14 +64,15 @@
 		
 		<h2>Links</h2>
 		<ul>
-			<l1><a href="Project_1/Wray_Project_1_TECH272_S2024.html"> Project 1</a></l1>
-			<l1><a href="Project_2/gropius.html">Gropius Project 1</a></l1>
-			<l1><a href="Project_2/CSSTest.html">CSS Test</a></l1>
-			<l1><a href="Project_2/gropius_7.html">Gropius Project 7</a></l1>
-			<l1><a href="Project_3/Project_3.html">Project 2 Personal Project</a></l1>
-			<l1><a href="Project_3/TablesForms_1.html">Tables/Forms</a></l1>
+			<li><a href="Project_1/Wray_Project_1_TECH272_S2024.html"> Project 1</a></li>
+			<li><a href="Project_2/gropius.html">Gropius Project 1</a></li>
+			<li><a href="Project_2/CSSTest.html">CSS Test</a></li>
+			<li><a href="Project_2/gropius_7.html">Gropius 7</a></li>
+			<li><a href="Project_3/Project_3.html">Project 2 Personal </a></li>
+			<li><a href="Project_3/TablesForms_1.html">Tables/Forms</a></li>
+			<li><a href="Project_3/floats.html">Floats </a></li>
+			<li><a href="Project_2/gropius_8.html">Project 8</a></li>
 		</ul>
-		
 	</main>
 </body>
 </html>
